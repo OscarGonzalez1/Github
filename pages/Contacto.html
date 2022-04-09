@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto-UltraTecno</title>
+</head>
+    <div class="contenedor">
+    <header>
+    <h1>Contacto</h1>
+    </header>
+    <hr>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="Perifericos.html">Perifericos</a>
+                </li>
+            </ul>
+        </nav>
+    <hr>
+    <main class="form">
+        <h3 class="text"> Complete este formulario para realizar alguna consulta </h3>
+        <form>
+            <fieldset>
+                <legend> Formulario </legend>
+                    <div>
+                        <label for="nombre"> Completa tu nombre </label>
+                        <input type="text" name="nombre" placeholder="Nombre y Apellido"> 
+                    </div>
+            
+                    <div>
+                        <label for="email"> Completa tu email </label>
+                        <input type="email" required placeholder="Completa tu email">
+                    </div>
+            
+                    <div>
+                        <label for="pais"> Seleciona tu pais </label>
+                        <select name="pais">
+                            <option value=""> Elige tu pais </option>
+                            <option value="Argentina"> Argentina </option>
+                            <option value="Uruguay"> Uruguay </option>
+                            <option value="Paraguay"> Paraguay </option>
+                            <option value="Bolivia"> Bolivia </option>
+                            <option value="Peru"> Peru </option>
+                        </select>
+                    </div>
+            
+                    <div>
+                        <label for="sexo"> Sexo </label>
+                        <br>
+                        <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+                        <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+                        <input type="radio" name="sexo" value="Prefiero no decirlo"> Prefiero no decirlo <br>
+                    </div>
+            
+                    <div>
+                        <label for="password"> Contraseña </label>
+                        <input type="password">
+                    </div>
+            
+                    <div>
+                        <textarea placeholder="Haga su reclamo aqui..."></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Reiniciar"> 
+                    </div>
+            </fieldset>
+        </form>
+        <hr>
+        <hr>
+        <!-- Aca me gustaria linkear a las preguntas otro html con las respuestas a esas consultas -->
+        <h3>
+            Preguntas Frecuentes:
+        </h3>
+        <p>
+            ¿Hacen envios a todo el pais?
+        </p>
+        <p>
+            ¿Se puede pagar solo con tarjetaas de creditos, o aceptan otro metodo de pago?
+        </p>
+    </main>
+    <hr>
+    <footer>
+        <h4 class="colorBlanco">Sponsors, Mapa de donde se encuentre el local, Numero de contacto con la empresa, Metodos de pago, etc</h4>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.717482431898!2d-58.43444398423721!3d-34.586014464069805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCODER%20HOUSE%20%7C%20Coderhouse%20S.R.L.!5e0!3m2!1ses!2sar!4v1647007392119!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <img class="imagen" src="../img/WhatsApp-Logo.png" alt="logo whattsap">
+            <img class="imagen" src="../img/Instagram-Logo-PNG5.png" alt="logo instagram">
+            <img class="imagen2" src="../img/Facebook-Logo-PNG3.png" alt="logo facebook">
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
